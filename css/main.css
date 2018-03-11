@@ -1,3 +1,6 @@
+.bk-ylw {
+  background: #ffe915; }
+
 body {
   margin: 0px;
   padding: 0px; }
@@ -24,15 +27,15 @@ body {
         color: white;
         font-weight: bold; }
     body .mycontainer .left .tab-menu .nav li.active a {
-      color: white;
-      background: black; }
+      color: #ffe915;
+      background: #484848; }
     body .mycontainer .left .tab-menu .nav li {
       width: 19.3%; }
       body .mycontainer .left .tab-menu .nav li a {
         width: 100%;
         padding: 0px;
         font-size: 32px;
-        color: yellow;
+        color: #484848;
         border-radius: 0px;
         display: flex;
         justify-content: center; }
@@ -47,11 +50,12 @@ body {
     body .mycontainer .left .tab-menu .tab-content .tab-pane .content p {
       margin-bottom: -5px !important; }
     body .mycontainer .left .tab-menu .tab-content .tab-pane .content .progress {
-      text-align: center;
-      color: black;
+      text-align: right;
+      color: #484848;
       display: inline-block;
       font-weight: 700;
-      float: right; }
+      float: right;
+      height: auto; }
     body .mycontainer .left .tab-menu .tab-content .tab-pane .content h1 {
       font-size: 40px;
       font-style: normal;
@@ -65,14 +69,12 @@ body {
       width: 0%;
       transition: 2s;
       height: 100%;
-      background: black; }
+      background: #484848; }
     body .mycontainer .left .tab-menu .tab-content .tab-pane .content .skills {
       float: left;
       margin-top: -8px; }
   body .mycontainer .right {
     float: right; }
-    body .mycontainer .right * {
-      border: 1px solid; }
     body .mycontainer .right .portfolio {
       height: 60vh; }
     body .mycontainer .right .contact {
@@ -93,5 +95,35 @@ body {
   background-color: transparent;
   border-radius: 0px;
   box-shadow: inset 0 1px 2px transparent; }
+
+.portfolio {
+  height: 100%;
+  overflow-y: scroll; }
+  .portfolio .row, .portfolio ul {
+    margin: 0px; }
+  .portfolio li {
+    height: 356px;
+    overflow-y: scroll; }
+    .portfolio li figure {
+      margin: 0px; }
+
+.contact .portfolio-nav ul {
+  margin: 0px; }
+  .contact .portfolio-nav ul li {
+    display: block;
+    padding: 0px; }
+.contact .left, .contact .right {
+  height: 100%; }
+
+.fa-pause {
+  display: none; }
+
+.voices {
+  position: absolute;
+  top: 0px;
+  right: 0px; }
+  .voices i {
+    color: white;
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

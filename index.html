@@ -10,6 +10,8 @@
         crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -24,14 +26,14 @@
             -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
             /* -webkit-border-radius: 10px; */
             /* border-radius: 10px; */
-            background: transparent
+            background: transparent;
         }
 
         ::-webkit-scrollbar-thumb {
             /* -webkit-border-radius: 10px; */
             /* border-radius: 10px; */
-            background: rgba(255, 0, 122, 0.8);
-            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+            background: #beae1c;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
         }
 
         ::-webkit-scrollbar-thumb:window-inactive {
@@ -43,12 +45,18 @@
     <div class="mycontainer">
 
         <!-- left side start -->
-        <div class="left my-md-20 height-100">
+        <div class="left my-md-20 height-100 bk-ylw">
             <div class="picture">
                 <img src="images/profile-img.jpg" alt="">
                 <!-- pdf start -->
                 <a href="images/Cavidan_Talıbov.pdf" target="_blank"> Show Cv`s PDF</a>
                 <!-- pdf end -->
+
+                <div class="voices">
+                    <i class="fas fa-play"></i>
+                    <i class="fas fa-pause"></i>
+                </div>
+
             </div>
             <!-- tab menu start -->
             <div class="tab-menu">
@@ -146,6 +154,7 @@
                         </ul>
                     </div>
                     <div id="menu4" class="tab-pane fade in">
+                        <h4>Skills</h4>
                         <div class="content">
                             <div class="my-md-100">
                                 <div class="count">
@@ -302,15 +311,310 @@
 
         <!-- right side start -->
         <div class="right my-md-80 height-100">
-            <div class="portfolio"></div>
-            <div class="contact"></div>
+            <div class="portfolio">
+
+                <div class="screenshots" id="portfolio-item">
+                    <div class="row">
+                        <ul class="grid">
+                            <!-- Portfolio minus two-->
+                            <li class="col m3 s12 mix category-1">
+                                <a href="https://github.com/cavidann/azersun">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/azersun.png" alt="Screenshot 01">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Azersun</h2>
+                                                    <p>Five day`s speed coding for Azersun (not responsive, for a large screen
+                                                        larger than 1500px)</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio minus one-->
+                            <li class="col m3 s12 mix category-1 category-3">
+                                <a href="http://yasamal.mida.az/">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/yasamal.mida.az.jpg" alt="Screenshot 01">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Yasamal.mida.az</h2>
+                                                    <p>A site for a Yasamal project of the State Agency for Housing Construction
+                                                        under the President of the Republic of Azerbaijan.</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio zero-->
+                            <li class="col m3 s12 mix category-1">
+                                <a href="https://github.com/cavidann/Softbox">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/softbox.png" alt="Screenshot 01">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Softbox</h2>
+                                                    <p>One Page Creative Agency Themplate</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio one-->
+                            <li class="col m3 s12 mix category-1">
+                                <a href="https://github.com/cavidann/starter">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-7.png" alt="Screenshot 01">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Starter</h2>
+                                                    <p>One Page Creative Agency Themplate</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+
+                            <!-- Portfolio two-->
+                            <li class="col m3 s12 mix category-1">
+                                <a href="https://github.com/cavidann/dj-reedrussell-FrontEnd">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-60.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Strings</h2>
+                                                    <p>Full Dj Themplate</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio three-->
+                            <li class="col m3 s12 mix category-2">
+                                <a href="https://github.com/cavidann/tictactoe">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-5.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Tictactoe</h2>
+                                                    <p>The Game Which Everyone Knows</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+
+                            <!-- Portfolio four-->
+                            <li class="col m3 s12 mix category-3 category-4">
+                                <a href="https://github.com/cavidann/asc____general">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-9.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Junior</h2>
+                                                    <p>Site for parents which have children 0-5 year old</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+
+                            <!-- Portfolio five-->
+                            <li class="col m3 s12 mix category-2">
+                                <a href="https://github.com/cavidann/vcard">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-4.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Vcard</h2>
+                                                    <p>Console Application For Virtual Card</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio six-->
+                            <li class="col m3 s12 mix category-4">
+                                <a href="https://github.com/cavidann/DJ-ReedRussell-MVC">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-60.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Strings</h2>
+                                                    <p>Full Dj Web Site</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio seven-->
+                            <li class="col m3 s12 mix category-2">
+                                <a href="https://github.com/cavidann/C-Sharp/tree/master/cinemalastone">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-3.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Cinema Brown</h2>
+                                                    <p>Cinema Brown From Application</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio eight-->
+                            <li class="col m3 s12 mix category-2">
+                                <a href="https://github.com/cavidann/C-Sharp/tree/master/hospital%20registry">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-2.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Hospital Registry</h2>
+                                                    <p>Hospital Registry Console Application</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio nine-->
+                            <li class="col m3 s12 mix category-2">
+                                <a href="https://github.com/cavidann/C-Sharp/tree/master/masin_benzin">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-1.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Car Fuel Control</h2>
+                                                    <p>Car Fuel Control Console Application</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio ten-->
+                            <li class="col m3 s12 mix category-2">
+                                <a href="https://github.com/cavidann/C-Sharp/tree/master/uber%20taksi%20yonlendirme">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-0.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Uber Operator</h2>
+                                                    <p>Uber Operator Console Application</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- Portfolio ten-->
+                            <li class="col m3 s12 mix category-1">
+                                <a href="https://github.com/cavidann/Denta-c">
+                                    <figure class="more">
+                                        <div class="make-standart">
+                                            <img src="images/p-10.png" alt="Screenshot 01" class="">
+                                        </div>
+                                        <figcaption>
+                                            <div class="caption-content">
+                                                <div class="single_image">
+                                                    <h2>Denta-C</h2>
+                                                    <p>Web Themplate For Dentits</p>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="left my-md-20">
+                    <div class="portfolio-nav section-wrapper z-depth-1">
+                        <ul>
+                            <li class="filter" data-filter="all">Show All</li>
+                            <li class="filter" data-filter=".category-1">Templates</li>
+                            <li class="filter" data-filter=".category-2">C-Sharp</li>
+                            <li class="filter" data-filter=".category-4">Asp.Net(MVC)</li>
+                            <li class="filter" data-filter=".category-3">Team Work</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="right my-md-80">
+                    <form action="https://formspree.io/cavi98@icloud.com" method="POST">
+                        <!-- <input > -->
+                        <input type="text" name="Corporation Name" placeholder="Corporation Name">
+                        <input type="email" name="E-mail" placeholder="E-mail">
+                        <textarea type="text" name="name" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
         </div>
         <!-- right side end -->
 
         <div class="clearfix"></div>
     </div>
-
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <!-- Customized js -->
+    <script src="js/init.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 </body>
